@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="./todo.js"></script>
+</head>
+<body>
+    <div id="box" class="box">
+        <div class="InnerBox">
+            <input type="text" id="input" placeholder="Enter Task" class="input" value="">
+            <input type="button" class="button" id="button" onclick="add_item()" value="Add To-Do">
+            <input type="button" value="clear" onclick="myClear()" class="clear" id="Myclear">
+            <div id="todoList" value="" class="todoList"></div>
+            
+        </div>
+    </div>
+</body>
+</html>
